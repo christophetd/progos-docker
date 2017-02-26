@@ -9,7 +9,9 @@ Docker, [Docker compose](https://github.com/docker/compose/releases) (easy to in
 To run the container and attach a shell to it, just run
 
 ```
-./start
+$ ./start
+...
+root@progos-container:~/code $ 
 ```
 
 It will:
