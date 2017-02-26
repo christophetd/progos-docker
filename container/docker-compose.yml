@@ -4,6 +4,7 @@ services:
     build: .
     working_dir: /root/code
     container_name: progos
+    hostname: progos-container
     image: progos2017
     volumes: 
       - ./../code:/root/code
