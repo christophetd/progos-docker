@@ -17,6 +17,8 @@ It will:
 - run the container
 - cleanup the container once you exit the shell
 
+The directory `code` is mounted on `/root/code` in the container.
+
 If for some reason you just want to rebuild (if necessary) and run the container in the background, use
 
 ```
