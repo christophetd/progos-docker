@@ -13,7 +13,7 @@ To run the container and attach a shell to it, just run
 ```
 
 It will:
-- rebuild the image from the Dockerfile if necessary
+- rebuild the image from the Dockerfile if necessary, and create an image named `progos` from it
 - run the container
 - cleanup the container once you exit the shell
 
