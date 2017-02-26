@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -x
+set -e
+
+CONTAINER_NAME=progos
+CONTAINER_DIR=container
+
+cd "$CONTAINER_DIR"
+
+docker-compose up -d --build
+docker exec -it "$CONTAINER_NAME" bash
+docker rm -f "$CONTAINER_NAME"

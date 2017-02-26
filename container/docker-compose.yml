@@ -1,0 +1,11 @@
+version: '2'
+services:
+  main:
+    build: .
+    working_dir: /root/code
+    container_name: progos
+    image: progos2017
+    volumes: 
+      - ./../code:/root/code
+    entrypoint: /bin/sh
+    tty: true
